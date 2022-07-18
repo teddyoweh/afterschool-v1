@@ -1,0 +1,131 @@
+/*
+
+
+ _________  ______   ______   ______   __  __    
+/________/\/_____/\ /_____/\ /_____/\ /_/\/_/\   
+\__.::.__\/\::::_\/_\:::_ \ \\:::_ \ \\ \ \ \ \  
+   \::\ \   \:\/___/\\:\ \ \ \\:\ \ \ \\:\_\ \ \ 
+    \::\ \   \::___\/_\:\ \ \ \\:\ \ \ \\::::_\/ 
+     \::\ \   \:\____/\\:\/.:| |\:\/.:| | \::\ \ 
+      \__\/    \_____\/ \____/_/ \____/_/  \__\/ 
+                                                 
+
+
+
+*/
+ 
+.sidebar-container{    border-style: solid;
+    border-style: solid;
+    height: 100vh;
+    width: 4rem;
+    border-width: 0px 1px 0px 0px;
+    border-color: #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ .sidebar-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    ul{list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        align-items: center;
+        height: 50vh;
+     
+        li{    font-size: 28px;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 1px 1px 14px #a29b9b;
+        
+            padding: 19px;
+            transition:0.3s;
+            a{color:#684b70e3; transition:0.3s;}
+            span{display: none;}
+            span.active{border-radius: 100%;
+                height: 1rem;
+                font-size: 9px;
+                width: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                top: -37px;
+                left: 13px;
+                font-family: poppins;
+                background: #0495b2;
+            }
+        &:hover{     background: #795f80;
+             transition:0.3s;a{color:white; transition:0.3s;}}}
+
+    }
+ }
+.sidebar-foot{    background: #4f2d7f;
+    background: #4f2d7f;
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 11%;
+    color: white;
+    font-family: poppins;
+    font-weight: 900;}}
+
+
+
+@media screen and (max-width: 768px){
+    .sidebar-container {
+        border-style: solid;
+        height: max-content;
+        border-width: 1px 0px 0px;
+        border-color: #d4d4d4;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .sidebar-container .sidebar-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        height: fit-content;
+        width: 100%;
+    }
+    .sidebar-container .sidebar-header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0;
+        align-items: flex-end;
+        width: 100%;
+    }
+}
+ 
+/*
+       &
+      .-"`"-.
+     /       \
+     |   __  _|
+     |  /  \/ \
+    WW  \_o/_o/
+    (        _)
+     |   .----\
+     ;  | '----'
+      \__'--;`
+jgs   |___/\|
+*/

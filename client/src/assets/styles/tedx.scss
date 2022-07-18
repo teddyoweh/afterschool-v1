@@ -1,0 +1,49 @@
+/*
+
+
+ _________  ______   ______   ______   __  __    
+/________/\/_____/\ /_____/\ /_____/\ /_/\/_/\   
+\__.::.__\/\::::_\/_\:::_ \ \\:::_ \ \\ \ \ \ \  
+   \::\ \   \:\/___/\\:\ \ \ \\:\ \ \ \\:\_\ \ \ 
+    \::\ \   \::___\/_\:\ \ \ \\:\ \ \ \\::::_\/ 
+     \::\ \   \:\____/\\:\/.:| |\:\/.:| | \::\ \ 
+      \__\/    \_____\/ \____/_/ \____/_/  \__\/ 
+                                                 
+
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;900&family=Karla:wght@500&family=La+Belle+Aurore&family=Poppins&display=swap');
+body{background-color: #efefef;}
+a{
+      text-decoration: none;
+      color:inherit;
+      cursor: pointer;
+      &:hover{
+            text-decoration: none;
+            color:inherit;
+            cursor: pointer;
+      }
+}
+.tedx-container{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: start;
+      position: fixed;
+}
+/*
+       &
+      .-"`"-.
+     /       \
+     |   __  _|
+     |  /  \/ \
+    WW  \_o/_o/
+    (        _)
+     |   .----\
+     ;  | '----'
+      \__'--;`
+jgs   |___/\|
+*/
