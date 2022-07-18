@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import axios from "axios";
 
-//UI 
-import { Box, Button, TextField, Typography } from "@material-ui/core";
+
 
 export class RegisterScreen extends Component {
   state = {

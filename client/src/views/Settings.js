@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Siderbar from "../components/sidebar";
-import Assetbar from "../components/assetbar";
 import SettingsComponent from "../components/Settingscomponent";
 import ProfileComponent from "../components/profilecomponent";
 export class Settings extends Component {
@@ -78,9 +77,10 @@ export class Settings extends Component {
         snapchat={snapchat}
         instagram={instagram}
         linkedin={linkedin}
-        
+        twitter={twitter}
         firstName={first_name} 
         lastName={last_name}
+        userType={userType}
          f={first_name[0]}
           l={last_name[0]}/>
         </div>

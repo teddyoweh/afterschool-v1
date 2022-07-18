@@ -3,7 +3,8 @@ const User = express.Router();
 
 const getDetails = require("./getDetails");
 const updateProfile = require("./updateProfile");
-User.use("", getDetails,updateProfile);
+const uploadFile = require("./uploadFile");
+User.use("", getDetails,updateProfile,uploadFile);
 
 module.exports = User;
 /*

@@ -33,6 +33,7 @@ let snapchat = blank;
 let instagram = blank;
 let linkedin = blank;
 let twitter = blank;
+let gender = blank;
           let newUser = new User({
             email,
             password: encryptedPassword,
